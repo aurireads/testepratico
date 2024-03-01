@@ -1,0 +1,43 @@
+#formContainer form {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para o título de cada formulário */
+#formContainer h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para os campos e botões dentro dos formulários */
+#formContainer label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formContainer input[type="text"],
+#formContainer input[type="email"],
+#formContainer input[type="date"],
+#formContainer button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formContainer button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#formContainer button:hover {
+    background-color: #0056b3;
+}
